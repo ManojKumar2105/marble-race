@@ -1,0 +1,79 @@
+#root,body,html{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    overflow:hidden;
+}
+
+body{
+    background-color: black;
+}
+
+.interface{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    top: 0;
+    left: 0;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.time{
+    position: absolute;
+    width: 100%;
+    color: white;
+    background-color: #00000033;
+    font-size: 4.8vh;
+    text-align: center;
+    top: 15%;
+    padding: 2px;
+}
+.restart{
+    position: absolute;
+    width: 100%;
+    color: white;
+    background-color: #00000033;
+    font-size: 75px;
+    text-align: center;
+    top: 25%;
+    padding-top: 2px;
+    pointer-events: auto;
+    cursor: pointer;
+    
+}
+
+.controls
+{
+    position: absolute;
+    bottom: 10%;
+    left: 0;
+    width: 100%;
+}
+
+.controls .raw
+{
+    display: flex;
+    justify-content: center;
+}
+
+.controls .key
+{
+    width: 40px;
+    height: 40px;
+    margin: 4px;
+    border: 2px solid #ffffff;
+    background: #ffffff44;
+}
+
+.controls .key.large
+{
+    width: 144px;
+}
+
+.controls .key.active
+{
+    background: #ffffff99;
+}
